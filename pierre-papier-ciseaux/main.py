@@ -25,7 +25,7 @@ compteur_score = {
     "match_nul": 0
 }
 
-# Bonus demandé : fonction pour afficher lettre par lettre
+# bonu demandé : fonction pr afficher lettre par lettre (j'avoue m'être aidé de l'ia pr ca sorry)
 def ecrire_doucement(texte, vitesse=0.02):
     """
     Cette fonction affiche le texte lettre par lettre comme demandé
@@ -43,7 +43,7 @@ def montrer_titre():
     """
     Affiche le titre du jeu avec des symboles
     """
-    # j'ai trouvé ces symboles sur le site unicode
+    # pris ca sur un simulateur (merci mathilde)
     print("\n")
     print("""
  ░█▀█░▀█▀░█▀▀░█▀▄░█▀▄░█▀▀░░░█▀█░█▀█░█▀█░▀█▀░█▀▀░█▀▄░░░█▀▀░▀█▀░█▀▀░█▀▀░█▀█░█░█░█░█
@@ -255,4 +255,5 @@ if __name__ == "__main__":
     except Exception as erreur:
         # au cas où il y a un bug
         print(f"\n✖ Oups, erreur : {erreur}")
+
         print("Désolé, le jeu a planté ☹")
